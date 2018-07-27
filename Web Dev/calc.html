@@ -1,0 +1,59 @@
+<html>
+    <body>
+        <script>
+        function calcu()
+        {
+        
+                var a = Number(document.getElementById('num1').value);
+                var b = Number(document.getElementById('num2').value);
+                var op = document.getElementById('ops').value;
+                if(op=='add')
+                {
+                    var res= Number(a+b);
+                }
+                else if(op=='sub')
+                {
+                    var res=Number(a-b);
+                }
+                else if(op=='mul')
+                {
+                    var res=Number(a*b);
+                }
+                else
+                {
+                    var res=Number(a/b);
+                }
+                //alert(res);
+                document.getElementById("result").value= res;
+                //document.getElementById("total").value = total; 
+
+                /* switch (op)
+                {
+                case 0:
+                    var res = a + b ;
+                    alert(res);
+                    document.getElementById('ops').value = res;
+                    break;
+                case 1:
+                    var res = a + b ;
+                    document.getElementById('ops').value = res;
+                    break;
+                }  */
+        }
+        </script>
+        <form action="">
+                <input type="text" placeholder="Enter first number" id="num1"> <br>                
+                <input type="text" placeholder="Enter second number" id="num2"> <br>
+                <select name="ope" id="ops"  >
+                    <option value="add">Addition</option>
+                    <option value="sub">Subtraction</option>
+                    <option value="mul">Multiplication</option>
+                    <option value="div">Division</option>
+
+                </select> <br>
+                <button onclick="calcu()">Calculate</button>
+                <input type="text" placeholder="Result" id="result"> <br>
+        </form>
+        
+    </body>
+</html>

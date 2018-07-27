@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>name</title>
+    </head>
+    <body>
+        <script>
+            function dip()
+            {
+                var fname = document.getElementById('name1').value;
+                var lname = document.getElementById('name2').value;
+                var newname= fname+lname;
+                //document.write(fname+" "+lname);
+                document.getElementById('fullname').innerHTML= newname;
+            }
+        </script>
+            <form action="">
+                    <input type="text" placeholder="Enter first name" id="name1">                                  
+                    <input type="text" placeholder="Enter last name" id="name2"> <br>
+                    <button onclick="dip()">Click</button> <br>                   
+            </form>
+    </body>
+</html>

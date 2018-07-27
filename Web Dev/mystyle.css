@@ -1,0 +1,56 @@
+.height25
+{
+    height: 25%;
+}
+.height20
+{
+    height: 20%;
+}
+.height30
+{
+    height: 30%;
+}
+.colorblue
+{
+    background-color: blue;
+}
+.colorgreen
+{
+    background-color:green;
+}
+.colorred
+{
+    background-color:red;
+}
+.colorviolet
+{
+    background-color:violet;
+}
+.colororange
+{
+    background-color:orange;
+}
+.colorgrey
+{
+    background-color:grey;
+}
+.coloryellow
+{
+    background-color:yellow;
+}
+
+.classbor
+{
+    text-align: left;
+    border-left: black 2px solid;
+}
+.classalign
+{
+    text-align: center;
+}
+
+img.center {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+  }
